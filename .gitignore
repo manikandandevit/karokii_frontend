@@ -3,8 +3,8 @@ dist/
 .vite/
 
 # env files
-.env
-.env.*
+# .env
+# .env.*
 
 # logs
 npm-debug.log*
