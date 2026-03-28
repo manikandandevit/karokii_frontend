@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://karokii-backend.onrender.com/api";
+// const API_BASE = import.meta.env.VITE_API_BASE || "https://karokii-backend.onrender.com/api";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://rashly-nonarbitrary-brendon.ngrok-free.dev/api";
 
 const STEM_OPTIONS = [
   { key: "vocals", label: "Vocals" },
